@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css selecter</title>
+    <!-- using style tag instead of a style sheet to have all selector in on file with result -->
+   
+    <style>
+          /* element selector  */
+        p {
+            color: coral;
+        }
+
+        /* class selecter */
+        .center{
+            text-align: center;
+        }
+
+        /* ID selecter */
+        #p1{
+            color:blue;
+            font-style: italic;
+            font-size: 18px;
+        }
+
+        /* universal selector */
+        *{
+            font-size: 28px;
+        }
+
+        /* grouping selector */
+        h1,h2{
+            color: red;
+        }
+
+        /* Descendant selecter */
+        div p{
+            font-style: italic;
+        }
+
+        /* combining class and element selecter */
+        p.usefull-highlight{
+            background-color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>css selecters</h1>
+    <h2>Element selecter</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quibusdam delectus officiis magni. Aperiam quos
+        excepturi velit provident aliquid veritatis voluptate. Fuga quis reiciendis exercitationem animi accusantium
+        delectus corporis molestiae, consequatur nobis enim accusamus vel laborum, eligendi minima a aut, ducimus
+        facere. Voluptatem doloribus quas ea eum magnam explicabo dolorem!</p>
+
+    <h2 class="center">Class selector</h2>
+    <h3 class="center">very usefull</h3>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste commodi dolore enim repellat, facere vel saepe ea
+        exercitationem distinctio ex quasi minus fuga mollitia doloremque itaque eveniet cupiditate officiis ipsum
+        fugiat sed? Culpa ad quia eos sit tenetur id vitae!</p>
+    
+    <h2 class="center">id selecter</h2>
+    <p id="p1">ID selecter is unique to an element</p>
+    
+    <h2 class="center">Descendant selecter</h2>
+    <div>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo quibusdam laboriosam error mollitia.</p>
+    </div>
+
+    <h2 class="center">combining selecters</h2>
+    <p class="usefull-highlight">this is combination of class and element selecters</p>
+    
+
+
+</body>
+
+</html>

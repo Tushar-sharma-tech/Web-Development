@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+
+<body>
+    <h1>addmison form</h1>
+
+    <form action="/process.php">
+        <label for="Naam">NAME</label>
+        <input type="text" id="Naam" name="Name" placeholder="enter your name here">
+        <br><br>
+        <label for="phone">PHONE</label>
+        <input type="tel" id="phone" name="phone" placeholder="enter your phone number">
+        <br><br>
+
+        <label for="pass">password</label>
+        <input type="password" id="pass" name="password" placeholder="set id password">
+        <br><br>
+
+        <label for="cpass">confirm password</label>
+        <input type="password" id="cpass" name="confirmpassword" placeholder="confirm password">
+        <br><br>
+
+        <h1>choose your gender</h1>
+
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male">
+
+        <label for="female">female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br><br>
+
+        <h2>which excersice you do mostly </h2>
+        <label for="pushups">push ups</label>
+        <input type="checkbox" id="pushups" name="excersice" value="push ups">
+        <br><br>
+        <label for="hindudand">hindu dand</label>
+        <input type="checkbox" id="hindudand" name="excersice" value="hindu dand">
+        <br><br>
+
+        <h2>select the city of your gym</h2>
+        <label for="city">choose a city</label>
+        <select name="city" id="city">
+        <option value="delhi">delhi</option>
+        <option value="sirsa">sirsa</option>
+        <option value="bangluru">bangluru</option>
+        </select>
+        <br><br>
+
+        <label for="your message">your message:</label>
+        <br>
+        <textarea name="description" rows="1 0" cols="144" id="your message"></textarea>
+        <br><br>
+
+        <input type="submit" value="submit">
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline vs Block Padding</title>
+
+    <style>
+        .inline {
+            background-color: yellow;
+            border: 2px solid green;
+            display: inline-block;
+            padding-top: 50px;
+        }
+
+        .block {
+            background-color: lightblue;
+            border: 2px solid blue;
+            padding-top: 50px;
+        }
+        p,h2{
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>Inline Element just increasing djhjhdj</h2>
+
+    <p>
+        This is some text before
+        <span class="inline">INLINE SPAN</span>
+        this is text after the span.
+    </p>
+
+    <h2>Block Element</h2>
+
+    <div class="block">
+        BLOCK DIV
+    </div>
+
+    <p>
+        This paragraph comes after the block.
+    </p>
+
+</body>
+
+</html>

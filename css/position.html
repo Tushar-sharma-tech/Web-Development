@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .container{
+            height: 200px;
+            width: 233px;
+           border: 2px black solid;
+           position: absolute; /* this is a positioned elements now */
+           margin: 50px;
+        }
+        .box1{
+             height: 80px;
+            width: 133px;
+            background-color: aqua;
+            border: 2px solid blue;
+             /* position: relative;  */
+             position: absolute; 
+            top: 40px;
+            z-index: 10;
+        }
+        .ad{
+            border: 3px solid blueviolet;
+            background-color: rgb(0, 255, 17);
+            color: black;
+            position: sticky;
+            top: 10px;
+            /* bottom: 0;
+            right: 0; */
+            padding: 34px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box1">
+            this is a box
+        </div>
+        <div class="ad">
+            THIS SHAMPOO FOR ONLY $5.80
+        </div>
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis consequuntur optio praesentium, repellendus autem, ipsum numquam nihil porro expedita maiores modi dolorum iusto ratione unde! Asperiores officia id quod architecto dolorum saepe ex atque, molestiae excepturi voluptate at expedita porro, dignissimos qui quo earum amet quasi eum et magni magnam nihil. Suscipit ab quae nisi illo? Soluta ipsa error qui voluptate modi. Reiciendis nihil sed dignissimos? Id tenetur dolorum exercitationem at quos incidunt rem, eveniet debitis, facilis sit molestias. Earum, rerum iusto eligendi accusantium facere molestiae doloribus iste veritatis placeat impedit id omnis totam. A numquam saepe quasi dignissimos in.
+        </div>
+        
+    </div>
+    
+</body>
+</html>
